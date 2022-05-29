@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+.logo {
+    height: 4rem;
+    width: 13rem;
+    margin-left: 8vh;
+}
+
+header {
+    background: rgb(162,59,80);
+    background: -moz-linear-gradient(180deg, rgba(162,59,80,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(162,59,80,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(162,59,80,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a23b50",endColorstr="#000000",GradientType=1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+footer {
+    height: 8vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(144,59,76,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+}
+main {
+    min-height: 85.8vh;
+}
+
+
+
+.nav-uno, .nav-dos, .nav-tres, .nav-cuatro, .nav-cinco {
+    border-radius: .5rem;
+    color: white;
+    margin-right: 5rem;
+    position: relative;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    text-align: center;
+    transition:  1s ;
+}
+
+
+
+
+.nav-uno:hover {
+    background-color: black;
+    transition: 1s ease-out ;
+    color: white;
+    background-image: url(https://f.rpp-noticias.io/2016/12/27/fiestas-ano-nuevo-315898mp3_315899.png);
+    background-size: cover;
+    background-position: center;  
+    
+}
+.nav-dos:hover {
+    background-color: black;
+    transition: 2s ease-in ;
+    color: white;
+    background-image: url(https://f.rpp-noticias.io/2016/12/27/fiestas-ano-nuevo-315898mp3_315899.png);
+    background-size: cover;
+    background-position: center;
+}
+.nav-tres:hover {
+    background-color: black;
+    transition: 1s ease-out ;
+    color: white;
+    background-image: url(https://f.rpp-noticias.io/2016/12/27/fiestas-ano-nuevo-315898mp3_315899.png);
+    background-size: cover;
+    background-position: center;
+}
+.nav-cuatro:hover {
+    background-color: black;
+    transition: 1s ease-out ;
+    color: white;
+    background-image: url(https://f.rpp-noticias.io/2016/12/27/fiestas-ano-nuevo-315898mp3_315899.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-cinco:hover {
+    background-color: black;
+    transition: 1s ease-in-out ;
+    color: white;
+    background-image: url(https://f.rpp-noticias.io/2016/12/27/fiestas-ano-nuevo-315898mp3_315899.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+h2 {
+    font-family: 'Permanent Marker' ;
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    text-align: center;
+    background: rgb(0,0,0);
+    background-image: url(https://i.gifer.com/2Cd3.gif);
+    background-position: center;
+    margin-bottom: 0;
+    
+
+}
+
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+}
+.inp {
+    margin: 2rem;
+}
+.buscador {
+    width: 30rem;
+    margin-left: 10rem;
+}
+
+.card-img-top {
+    max-height: 100%;
+    box-shadow: .5rem .5rem .5rem grey;
+
+}
+.card {
+    display: flex;
+    justify-content: end;
+}
+
+svg {
+    margin-left: 5rem;
+}
+
+.bi-whatsapp:hover {
+    background-color: rgba(45, 199, 40, 0.349);
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    transition: .1s ease-out ;
+}
+
+.bi-instagram:hover {
+    background-color: rgba(202, 44, 136, 0.349);
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    transition: .1s ease-out ;
+}
+
+.bi-facebook:hover {
+    background-color: rgba(40, 51, 199, 0.411);
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    transition: .1s ease-out ;
+}
+
+.btn-redes {
+    margin: -1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: white;
+    margin-right: 5rem;
+}
+
+.divform {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.sub {
+    margin-top: 2rem;
+}
+.sub:hover {
+    margin-top: 2rem;
+    border-radius: 1rem;
+    transition: 1s ease-out ;
+    color: white;
+    height: 40px;
+    width: 60px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(144,59,76,1) 100%);
+}
+
+.navegador {
+    background: rgb(162,59,80);
+    background: -moz-linear-gradient(0deg, rgba(162,59,80,1) 0%, rgba(0,0,0,1) 79%);
+    background: -webkit-linear-gradient(0deg, rgba(162,59,80,1) 0%, rgba(0,0,0,1) 79%);
+    background: linear-gradient(0deg, rgba(162,59,80,1) 0%, rgba(0,0,0,1) 79%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a23b50",endColorstr="#000000",GradientType=1);  
+    color: white;
+
+}
+
+.btn {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(144,59,76,1) 100%); 
+    color: white;
+    border: 1px solid black;
+    box-shadow: .5rem .5rem .5rem grey;
+    width: 12rem;
+}
+.btn1 {
+    box-shadow: none;
+}
+
+.btn:hover {
+    background-image: url(https://90mas10.com/wp-content/uploads/2020/05/IMG_6321-1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+
+/* Details */
+
+
+/*                 */
+th {
+    border: .2px solid;
+}
+
+
+/* Checkbox */
+
+@media (max-width: 839px) {
+    .checking {
+        display: flex;
+    }
+}
+
+@media (min-width: 374px) {
+    .search {
+        width: 0%;
+    
+    }
+}
+
+.mainCardsDetails {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Details */
+.details {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    font-size: 2rem;
+}
+@media (min-width: 800px){
+    h6 {
+        padding-bottom: 15rem;
+    }
+}
