@@ -90,7 +90,7 @@ function displayCard(datoHome) {
             <p class="card-text text-center ">${datoHome[i].category}</p>
             <p class="card-text text-center ">${datoHome[i].description}</p>
             <p class="card-text text-center ">$ ${datoHome[i].price}</p>     
-            <a href="../HTML/details.html?id=${datoHome[i]._id}"><button class="btn botonCards">See more</button></a>
+            <a href="./HTML/details.html?id=${datoHome[i]._id}"><button class="btn botonCards">See more</button></a>
             
         </div>
         </div>
