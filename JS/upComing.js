@@ -49,23 +49,23 @@ inputSearch.addEventListener("keyup", (event) => {
 })
 
 function filterArray() {
-    let datoArrayUp = []
+    let datoArray = []
     if (checkboxSelected.length > 0 && textSearch !== "") {
         checkboxSelected.map(category => {
-            datoArrayUp.push(...data.events.filter(event => event.category.toLowerCase().includes(textSearch.trim().toLowerCase())  && event.category == category)) || datoArray.push(...data.events.filter(event => event.name.toLowerCase().includes(textSearch.trim().toLowerCase()) ))
+            datoArray.push(...data.events.filter(event => event.category.toLowerCase().includes(textSearch.trim().toLowerCase()) && event.category == category)) || datoArray.push(...data.events.filter(event => event.name.toLowerCase().includes(textSearch.trim().toLowerCase())))
         })
     }
     else if (checkboxSelected.length > 0 && textSearch === "") {
-        checkboxSelected.map(category => datoArrayUp.push(...data.events.filter(event => event.category == category)))
+        checkboxSelected.map(category => datoArray.push(...data.events.filter(event => event.category == category)))
     }
     else if (checkboxSelected.length == 0 && textSearch !== "") {
-        datoArrayUp.push(...data.events.filter(event => event.category.toLowerCase().includes(textSearch.trim().toLowerCase()) )) || datoArrayUp.push(...data.events.filter(event => event.name.toLowerCase().includes(textSearch.trim().toLowerCase()) ))
+        datoArray.push(...data.events.filter(event => event.category.toLowerCase().includes(textSearch.trim().toLowerCase()))) || datoArray.push(...data.events.filter(event => event.name.toLowerCase().includes(textSearch.trim().toLowerCase())))
     }
-    
-    else { datoArrayUp.push(...data.events) }
-    
-    
-    displayCard(datoArrayUp)
+
+    else { datoArray.push(...data.events) }
+
+
+    displayCard(datoArray)
 }
 filterArray()
 

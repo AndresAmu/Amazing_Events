@@ -104,3 +104,4 @@ function displayCard(datoHome) {
 
 }
 displayCard()
+
